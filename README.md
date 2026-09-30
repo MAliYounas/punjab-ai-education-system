@@ -29,9 +29,9 @@ python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000
 
 Open [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
-Public briefing (GitHub Pages): [https://maliyounas.github.io/punjab-ai-education-system/](https://maliyounas.github.io/punjab-ai-education-system/)
+**Live full system (use this from any phone or computer):** [https://divx-knows-mating-berlin.trycloudflare.com/](https://divx-knows-mating-berlin.trycloudflare.com/)
 
-GitHub Pages can only host the static briefing. The working portal needs Python, so run it locally or deploy the `Dockerfile` / `render.yaml` on a Python host (Render, Railway, Fly.io, and similar).
+The GitHub Pages link ([https://maliyounas.github.io/punjab-ai-education-system/](https://maliyounas.github.io/punjab-ai-education-system/)) redirects to that live portal. Keep this PC and the app running while you share the link.
 
 Optional: copy `.env.example` to `.env` and add an OpenAI or Gemini key. The prototype is fully functional without a key. With a key, generation is richer while remaining constrained to retrieved textbook chunks.
 
