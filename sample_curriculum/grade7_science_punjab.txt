@@ -1,0 +1,37 @@
+Punjab Curriculum and Textbook Board
+General Science for Class VII — Sample extract for ingestion demo
+Approved version 2024
+
+This document is a teaching extract used to demonstrate curriculum upload. It is aligned to the prototype knowledge model: Grade → Subject → Chapter → Topic → SLO → Concept.
+
+Chapter 2: Photosynthesis and Nutrition in Plants
+
+Green plants are autotrophs. They make food from carbon dioxide and water using sunlight. This process is called photosynthesis. Heterotrophs such as humans and goats cannot make food and depend on plants.
+
+Topic: The process of photosynthesis
+Photosynthesis is the process by which green plants prepare glucose from carbon dioxide and water in the presence of sunlight and chlorophyll, releasing oxygen.
+Word equation: Carbon dioxide + Water → Glucose + Oxygen (sunlight, chlorophyll)
+Chemical equation: 6CO2 + 6H2O → C6H12O6 + 6O2
+The main site is the chloroplast in mesophyll cells of leaves. Chlorophyll is the green pigment that absorbs light energy.
+Carbon dioxide enters leaves through stomata. Water is absorbed by roots and transported through xylem. Guard cells control stomata.
+
+SLO: Define photosynthesis and write its word and chemical equations.
+SLO: Explain the role of chlorophyll, stomata, water and sunlight in photosynthesis.
+Student will be able to apply the idea of limiting factors to a cloudy day in Punjab.
+
+Topic: Factors affecting photosynthesis
+The rate of photosynthesis increases with light intensity up to a point, then levels off. Carbon dioxide concentration, water, temperature and chlorophyll also affect the rate. Photosynthesis is the foundation of food chains and maintains oxygen in air.
+
+Chapter 3: Transport in Plants and Animals
+
+Topic: Xylem and phloem
+Xylem vessels transport water and dissolved minerals from roots to leaves. Phloem transports sugars from leaves to growing and storage parts. This movement of food is called translocation.
+Transpiration is the loss of water vapour from aerial parts, mainly through stomata. It helps pull water upward and cools the plant.
+
+SLO: Distinguish between the functions of xylem and phloem.
+Learning outcome: Explain transpiration and its significance.
+
+Chapter 5: Physical and Chemical Changes
+
+Topic: Chemical changes in living systems
+Burning wood, rusting iron, cooking an egg, ripening fruit, photosynthesis and respiration are chemical changes. Photosynthesis is a chemical change because carbon dioxide and water become glucose and oxygen. Melting ice is a physical change because no new substance is formed.

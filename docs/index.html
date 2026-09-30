@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#01411C" />
+  <title>Punjab Education Intelligence Platform</title>
+  <style>
+    :root { --green:#01411C; --deep:#012a12; --gold:#c9a227; --paper:#f3f6f3; --ink:#122018; --muted:#5c6b62; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:"Segoe UI", sans-serif; background:var(--paper); color:var(--ink); line-height:1.5; }
+    .nation { background:var(--deep); color:#e8f0ea; padding:8px 20px; font-size:12px; letter-spacing:.12em; text-transform:uppercase; display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; }
+    .nation b { color:var(--gold); }
+    header { background:linear-gradient(165deg, var(--deep), var(--green)); color:#fff; padding:48px 24px 40px; }
+    header h1 { font-size:clamp(28px,5vw,44px); margin:8px 0 12px; max-width:16ch; line-height:1.15; }
+    header p { max-width:58ch; color:#d5e6da; }
+    .wrap { max-width:960px; margin:0 auto; padding:0 20px 64px; }
+    .card { background:#fff; border:1px solid #d7e0d8; padding:20px; margin-top:16px; }
+    h2 { color:var(--deep); margin:0 0 8px; }
+    .btn { display:inline-flex; align-items:center; justify-content:center; background:var(--green); color:#fff; text-decoration:none; padding:12px 16px; font-weight:600; min-height:44px; margin:6px 8px 6px 0; }
+    .btn.ghost { background:transparent; color:var(--green); border:1px solid var(--green); }
+    table { width:100%; border-collapse:collapse; }
+    th, td { text-align:left; padding:10px 8px; border-bottom:1px solid #d7e0d8; font-size:14px; }
+    th { font-size:11px; letter-spacing:.08em; text-transform:uppercase; color:var(--green); }
+    .notice { border-left:4px solid var(--gold); background:#fff; padding:14px 16px; margin-top:20px; }
+    ol { padding-left:20px; }
+    code { background:#eef6f0; padding:1px 6px; }
+    footer { color:var(--muted); font-size:12px; margin-top:28px; }
+  </style>
+</head>
+<body>
+  <div class="nation"><b>Islamic Republic of Pakistan</b><span>Government of the Punjab</span></div>
+  <header>
+    <div class="wrap">
+      <div style="color:var(--gold); letter-spacing:.2em; text-transform:uppercase; font-size:12px;">School Education Department</div>
+      <h1>Punjab Education Intelligence Platform</h1>
+      <p>Prototype for the Punjab AI-Powered Education &amp; Learning System. Curriculum → knowledge → learning → assessment → diagnosis → personalised improvement.</p>
+      <a class="btn" href="https://github.com/MAliYounas/punjab-ai-education-system">Open the GitHub repository</a>
+      <a class="btn ghost" href="https://github.com/MAliYounas/punjab-ai-education-system#run">How to run the live prototype</a>
+    </div>
+  </header>
+  <div class="wrap">
+    <div class="notice">
+      <b>GitHub Pages hosts this public briefing only.</b>
+      The working portal is a Python (FastAPI) application with a SQLite knowledge base, so it cannot run on GitHub Pages. Clone the repository and run <code>run.bat</code>, or deploy the included <code>Dockerfile</code> / Render blueprint, then open the app in a browser.
+    </div>
+    <div class="card">
+      <h2>Prototype scope</h2>
+      <p>Grade 7 General Science · PCTB-aligned · 5 chapters · hero chapter: Photosynthesis and Nutrition in Plants.</p>
+    </div>
+    <div class="card">
+      <h2>Demo accounts</h2>
+      <table>
+        <thead><tr><th>Role</th><th>Username</th><th>Password</th></tr></thead>
+        <tbody>
+          <tr><td>Administrator</td><td>admin</td><td>admin123</td></tr>
+          <tr><td>Teacher (Ayesha Khan)</td><td>teacher</td><td>teacher123</td></tr>
+          <tr><td>Student (Ahmed Ali)</td><td>student</td><td>student123</td></tr>
+          <tr><td>Management</td><td>director</td><td>director123</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h2>Run on any computer</h2>
+      <ol>
+        <li>Install Python 3.11+</li>
+        <li>Download or clone the GitHub repository</li>
+        <li>Double-click <code>run.bat</code> (Windows) or run <code>python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000</code></li>
+        <li>Open <code>http://127.0.0.1:8000</code></li>
+      </ol>
+    </div>
+    <footer>Official prototype · School Education Department · Government of the Punjab</footer>
+  </div>
+</body>
+</html>
