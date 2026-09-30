@@ -29,9 +29,7 @@ python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000
 
 Open [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
-**Live full system (use this from any phone or computer):** [https://tonight-brunswick-killing-boss.trycloudflare.com/](https://tonight-brunswick-killing-boss.trycloudflare.com/)
-
-The GitHub Pages link ([https://maliyounas.github.io/punjab-ai-education-system/](https://maliyounas.github.io/punjab-ai-education-system/)) redirects to that live portal. Keep this PC and the app running while you share the link.
+**Live full system (GitHub cloud, this PC is not the server):** [https://peip-jjqxr5r7xx5xh5r59-8000.app.github.dev](https://peip-jjqxr5r7xx5xh5r59-8000.app.github.dev/)
 
 Optional: copy `.env.example` to `.env` and add an OpenAI or Gemini key. The prototype is fully functional without a key. With a key, generation is richer while remaining constrained to retrieved textbook chunks.
 
