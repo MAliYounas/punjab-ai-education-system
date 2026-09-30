@@ -1,7 +1,6 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
-from fastapi.staticfiles import StaticFiles
 
 from .config import FRONTEND_DIR, HAS_LLM
 from .database import Base, SessionLocal, engine
@@ -30,8 +29,6 @@ app.include_router(assessments.router)
 app.include_router(copilot.router)
 app.include_router(analytics.router)
 
-app.mount("/static", StaticFiles(directory=str(FRONTEND_DIR)), name="static")
-
 
 @app.on_event("startup")
 def startup():
@@ -51,3 +48,14 @@ def health():
 @app.get("/")
 def index():
     return FileResponse(FRONTEND_DIR / "index.html")
+
+
+@app.get("/assets/{path:path}")
+def assets(path: str):
+    root = FRONTEND_DIR.resolve()
+    target = (FRONTEND_DIR / path).resolve()
+    if root not in target.parents and target != root:
+        raise HTTPException(404)
+    if not target.is_file():
+        raise HTTPException(404)
+    return FileResponse(target)

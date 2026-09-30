@@ -29,7 +29,7 @@ python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000
 
 Open [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
-**Live full system (use this from any phone or computer):** [https://divx-knows-mating-berlin.trycloudflare.com/](https://divx-knows-mating-berlin.trycloudflare.com/)
+**Live full system (use this from any phone or computer):** [https://tonight-brunswick-killing-boss.trycloudflare.com/](https://tonight-brunswick-killing-boss.trycloudflare.com/)
 
 The GitHub Pages link ([https://maliyounas.github.io/punjab-ai-education-system/](https://maliyounas.github.io/punjab-ai-education-system/)) redirects to that live portal. Keep this PC and the app running while you share the link.
 
